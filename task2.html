@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maha Chic Beauty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#learn">Learn Your Skin Type</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to Maha Chic Beauty</h1>
+        <p>Discover the best products for your skin type!</p>
+        <img src="https://cdn2.vectorstock.com/i/thumb-large/71/81/blooming-floral-elegant-m-monogram-and-logo-vector-24487181.jpg" alt="Maha Chic Beauty Banner" width="300" height="200">
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <section id="home">
+            <h2>New Arrivals</h2>
+            <p>Check out our latest products tailored for your skin.</p>
+            <img src="https://th.bing.com/th/id/R.d62cf33c8fc1c868b70ae91965210340?rik=vmnHs9bQHgkbPQ&pid=ImgRaw&r=0" alt="New Arrivals" width="300" height="200">
+        </section>
+        <section id="shop">
+            <h2>Shop by Category</h2>
+            <p>Dry, Oily, or Combination</p>
+            <img src="https://th.bing.com/th/id/OIP.5zi0lPag_GknqlHGLxwVuAHaE8?rs=1&pid=ImgDetMain" alt="Shop Categories">
+        </section>
+        <section id="learn">
+            <h2>Learn More About Skincare</h2>
+            <p>Learn your skin type!</p>
+            <img src="https://th.bing.com/th/id/OIP.rIsXPWV1u2SGo8A7JWbMigHaJM?rs=1&pid=ImgDetMain" alt="Learn Skincare">
+        </section>
+        <!-- Interactive form section -->
+        <section id="formSection">
+            <h2>Interactive Calculator</h2>
+            <p>Calculate your yearly wage below:</p>
+            <form id="wageForm">
+                <label for="hourlyWage">Enter your hourly wage ($):</label>
+                <input type="number" id="hourlyWage" required>
+
+                <label for="hoursPerWeek">Hours per week:</label>
+                <input type="number" id="hoursPerWeek" required>
+
+                <label for="weeksPerYear">Weeks per year:</label>
+                <input type="number" id="weeksPerYear" required value="52">
+
+                <button type="submit">Calculate Yearly Wage</button>
+            </form>
+            <div id="wageResult"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Maha Chic Beauty. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
